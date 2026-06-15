@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <title>Is-diiwaangeli - Sports Mall</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SPORTS MALL</h1>
+        <p>Ku soo biir naadiga VIP-da ee Sports Mall</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Friends Page.html">Friends</a></li>
+            <li><a href="Registration Page.html">Registration</a></li>
+            <li><a href="Contact Page.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Foomka Is-diiwaangelinta Xubinnimada</h2>
+        <br>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="fullname">Magacaaga Fulda ah:</label>
+                <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Geli magacaaga saddexan" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail-kaaga:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="tusaale@gmail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password-ka:</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Abuur furaha sirta ah" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sport">Ciyaarta aad ugu jeceshahay:</label>
+                <select id="sport" name="sport" class="form-control">
+                    <option value="football">Kubadda Cagta</option>
+                    <option value="basketball">Kubadda Koleyga</option>
+                    <option value="fitness">Jimicsiga / Gym</option>
+                    <option value="running">Orodka</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Nooca Xubinnimada:</label>
+                <div class="radio-group">
+                    <input type="radio" id="standard" name="membership" value="standard" checked>
+                    <label for="standard">Caadi ( Bilaash )</label>
+                    
+                    <input type="radio" id="premium" name="membership" value="premium">
+                    <label for="premium">Premium ( Lacag )</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Waxaan ogolahay shuruudaha iyo xeerarka guud ee dukaanka.</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Diiwaangeli Hadda</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sports Mall. Dhammaan xuquuqdu waa dhowran tahay.</p>
+    </footer>
+
+</body>
+</html>
